@@ -1,0 +1,38 @@
+{
+  "name": "normalize-stringify-length",
+  "version": "1.0.2",
+  "description": "Stringify an object to JSON, shortening each property such that the total length of the string output is less than an upper bound. Takes all syntax characters and escapes into account. Always produces valid JSON. No dependencies.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "pretty": "prettier --write --print-width=119 src/* test/* ",
+    "test": "mocha --no-colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypcrts/normalized-json-stringify.js.git"
+  },
+  "keywords": [
+    "JSON",
+    "stringify",
+    "normalize",
+    "length",
+    "maxlen",
+    "ETL",
+    "parser",
+    "serialize"
+  ],
+  "author": "ypcrts",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ypcrts/normalized-stringify-length.js/issues"
+  },
+  "homepage": "https://github.com/ypcrts/normalized-stringify-length.js#readme",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2",
+    "prettier": "^1.5.3"
+  }
+}

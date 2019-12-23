@@ -1,6 +1,6 @@
 {
   "name": "normalize-stringify-length",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Stringify an object to JSON, shortening each property such that the total length of the string output is less than an upper bound. Takes all syntax characters and escapes into account. Always produces valid JSON. No dependencies.",
   "main": "index.js",
   "directories": {
